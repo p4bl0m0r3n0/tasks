@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListComponent } from './pages/list/list.component';
-import { NewComponent } from './pages/new/new.component';
+import { AddTaskComponent } from './pages/addTask/addTask.component';
 import { TaskComponent } from './pages/task/task.component';
 import { Page404Component } from './pages/page404/page404.component';
 
@@ -12,7 +12,7 @@ import { Page404Component } from './pages/page404/page404.component';
   declarations: [
     AppComponent,
     ListComponent,
-    NewComponent,
+    AddTaskComponent,
     TaskComponent,
     Page404Component
   ],

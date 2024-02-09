@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ListComponent } from './pages/list/list.component';
-import { NewComponent } from './pages/new/new.component';
+import { AddTaskComponent } from './pages/addTask/addTask.component';
 import { Page404Component } from './pages/page404/page404.component';
 import { TaskComponent } from './pages/task/task.component';
 
@@ -17,7 +17,7 @@ const routes: Routes = [
   },
   {
     path: 'new',
-    component: NewComponent
+    component: AddTaskComponent
   },
   {
     path: 'task/:id',
